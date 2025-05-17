@@ -5,7 +5,7 @@ const express = require('express');
 const fs = require('fs');
 
 const API_PASSWORD = 'TarikulOnTop12!';
-const SMTP_PORT = 25;
+const SMTP_PORT = 93;
 const API_PORT = 3000;
 
 const db = new Database('emails.db');
